@@ -1,3 +1,5 @@
+            # REFLEX
+
 Vamos a crear nuestro primer proyecto Reflex con VSCode, PowerShell y Python 3.14.4 (En el momento de iniciar)
 
 Creamos, en la carpeta del proyecto el ENTORNO VIRTUAL con:
@@ -14,6 +16,7 @@ Creamos el proyecto GIT:
 1. Dentro de la carpeta 1.FirstReflex:
    git init
 2. Creamos, en la raíz del proyecto el .gitignore con el siguiente contenido:
+   ```
    # Entornos virtuales
    .venv/
    venv/
@@ -22,6 +25,7 @@ Creamos el proyecto GIT:
    # Cache y archivos temporales de Python
    __pycache__/
    *.py[cod]
+   ```
 
 Sincronizamos con GITHUB:
 1. git add .
