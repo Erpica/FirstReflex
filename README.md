@@ -1,8 +1,8 @@
 <h1 align="center">🚀 FirstReflex</h1>
 
-Vamos a crear nuestro primer proyecto Reflex con VSCode, PowerShell y Python 3.14.4 (En el momento de iniciar)
+Vamos a crear nuestro primer proyecto Reflex con VSCode, PowerShell, uv y Python 3.14.4 (En el momento de iniciar)
 
-Creamos, en la carpeta del proyecto el ENTORNO VIRTUAL con:
+Creamos, en la carpeta del proyecto el **ENTORNO VIRTUAL** con:
 1. Vemos si estamos en algún entorno virtual:
    $env:VIRTUAL_ENV
 2. Salimos del entorno virtual actual:
@@ -12,7 +12,7 @@ Creamos, en la carpeta del proyecto el ENTORNO VIRTUAL con:
 4. Dentro de la carpeta 1.FirstReflex: (Si da error de permisos -> p:\[...]>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
    .\Scripts\Activate.ps1
 
-Creamos el proyecto GIT:
+Creamos el proyecto **GIT**:
 1. Dentro de la carpeta 1.FirstReflex:
    git init
 2. Creamos, en la raíz del proyecto el .gitignore con el siguiente contenido:
@@ -27,10 +27,14 @@ Creamos el proyecto GIT:
    *.py[cod]
    ```
 
-Sincronizamos con GITHUB:
+Sincronizamos con **GITHUB**:
 1. git add .
 2. git commit -m "Commit inicial: Creado entorno virtual y proyecto git"
 3. Creamos el repositorio sin README.md ni gitignore (ya los tengo en local)
 4. git branch -M main (por si estuviera en la master, como antiguamente)
 5. git remote add origin https://github.com/Erpica/FirstReflex.git
 6. git push -u origin main
+
+Instalamos lo necesario y empezamos a usar **REFLEX**:
+1. uv pip install reflex
+2. reflex init
