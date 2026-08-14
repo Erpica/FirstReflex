@@ -2,6 +2,7 @@ assets/external/
 .web
 *.db
 .states
+
 # Entornos virtuales
 .venv/
 venv/
@@ -12,3 +13,5 @@ venv/
 # Cache y archivos temporales de Python
 __pycache__/
 *.py[cod]
+
+Roadmap.docx

@@ -38,3 +38,54 @@ Sincronizamos con **GITHUB**:
 Instalamos lo necesario y empezamos a usar **REFLEX**:
 1. uv pip install reflex
 2. reflex init
+
+
+
+
+Notas adicionales:
+- Actualizar todo: `uv pip install -U -r requirements.txt`
+- Para proyectos profesionales debemos tener pyproject.toml:
+   * uv init
+   * uv add requests
+- Ver que paquetes reconoce uv: `uv tree`
+
+
+
+
+======================================
+
+Componentes de reflex:
+* Estructura y Diseño (Layout)
+
+   Box: Contenedor genérico basado en una etiqueta div para aplicar estilos.
+   
+   Flex / Grid: Permiten organizar elementos en filas, columnas o rejillas responsivas.
+   
+   Spacer: Añade espacio flexible entre componentes.
+
+* Formularios y Entrada de DatosButton: 
+
+   Botón interactivo para activar eventos.
+   
+   Input / Text Area: Campos de texto para que el usuario escriba información.
+   
+   Checkbox / Radio Group / Switch: Opciones de selección múltiple o interruptores.
+   
+   Upload: Componente para subir archivos.
+
+* Visualización de Datos y Contenido
+
+   Text / Heading: Textos planos y títulos de diferentes niveles.
+   
+   Avatar / Badge: Imágenes de perfil e insignias o etiquetas.
+   
+   Code Block: Bloques de código con resaltado de sintaxis.
+   
+   Spinner / Skeleton: Indicadores de carga visual.
+   
+* Renderizado Dinámico y Control
+   Cond: Renderiza componentes de forma condicional según una variable.
+   
+   Foreach: Permite iterar sobre listas de datos para mostrar elementos repetitivos.
+   
+   Match: Funciona como una estructura de selección múltiple (switch/case) visual.
